@@ -4,6 +4,13 @@ const myBox = document.querySelector('.box');
 const colors = ['red','green','blue','yellow'];
 //console.log(myButton)
 
+
+
+let name ='Marko Tagoma';
+
+console.log(`Hello, ${name} `)
+
+
 myButton.addEventListener('click', changeColor);
  
  var lastIndex = -1
